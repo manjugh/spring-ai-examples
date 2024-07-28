@@ -1,0 +1,19 @@
+ACE Corporation is Multinational IT company, head quartered in Bangalore, India.
+
+This company has a big ambitious , AB Renewal. This project consists of 250 resources. Following details give its oragnization.
+
+It consists of 2 squad:
+
+1. Squad name: Arjuna
+   Squad lead: VS
+   Technical leads: GHM and SR
+   Members: MR, MC, PS, RS, SH, NLS, PR and YS.
+   Systems: DCC-AD, DCC-Life, Dcc-Aab and batches.
+   Product owners: NB and SHS
+
+ 1. Squad name: Kaurava
+    Squad lead: SS
+    Technical leads: RG
+    Members: BB,CC, DD
+    Systems: MCC-AD, MCC-Life, Mcc-Aab and batches.
+    Product owners: AJ and MJ
