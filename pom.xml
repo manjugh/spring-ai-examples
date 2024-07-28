@@ -17,6 +17,7 @@
 
     <modules>
         <module>ollama-examples</module>
+        <module>ollama-rag-example</module>
     </modules>
 
     <properties>
