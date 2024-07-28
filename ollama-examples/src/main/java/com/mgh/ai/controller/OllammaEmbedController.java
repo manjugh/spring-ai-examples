@@ -41,6 +41,7 @@ public class OllammaEmbedController {
         String releaventInfo = documents.stream().map(Document::getContent).collect(Collectors.joining(System.lineSeparator()));
         var systemPrompt = """
                 You will be working as project guide. You will provide the requested information. Answer precisely to the question, do not add addition information.
+                If you do not find the answer, just politely say I am not aware!
                 Use the following information to answer the question:
                 {information}
                 """;
@@ -48,7 +49,7 @@ public class OllammaEmbedController {
         Message information = systemPromptTemplate.createMessage(Map.of("information", releaventInfo));
 
         var userMessage = """
-                Tell me about the {query}
+                {query}
                 """;
         PromptTemplate template = new PromptTemplate(userMessage);
         UserMessage userMeesage1 = new UserMessage(template.create(Map.of("query", query)).getContents());
